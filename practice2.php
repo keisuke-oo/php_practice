@@ -5,14 +5,16 @@ $name = "南田";
 if ($name = "南田") {
   echo "私は南田です";
 } else {
-  echo "南田ではありません";
+  echo "あなたの名前ではありません";
 }
+echo "\n";
 #課題２
 $total = 0;
 for ($i = 1; $i <=10000; $i++){
   $total += $i;
 }
 echo $total;
+echo "\n";
 #課題３
 $fruit = array("バナナ","リンゴ","イチゴ","梨","スイカ");
 foreach($fruit as $fruit){
