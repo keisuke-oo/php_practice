@@ -2,7 +2,7 @@
 #課題１
 $name = "南田";
 
-if ($name = "南田") {
+if ($name == "南田") {
   echo "私は南田です";
 } else {
   echo "あなたの名前ではありません";
@@ -16,8 +16,8 @@ for ($i = 1; $i <=10000; $i++){
 echo $total;
 echo "\n";
 #課題３
-$fruit = array("バナナ","リンゴ","イチゴ","梨","スイカ");
-foreach($fruit as $fruit){
+$fruits = array("バナナ","リンゴ","イチゴ","梨","スイカ");
+foreach($fruits as $fruit){
   echo $fruit;
   echo "\n";
 }
