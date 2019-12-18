@@ -1,15 +1,9 @@
 <?php
 #課題１
 function sum($max) {
- 
- $result = 0;
- 
- for ($i = 1; $i <= $max; $i++){
    
-   $result = $i*2;
-   
- }
- return $result; 
+ return $max*2; 
+
 }
 echo sum(4);
 ?>
